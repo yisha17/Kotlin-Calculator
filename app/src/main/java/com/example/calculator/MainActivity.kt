@@ -68,8 +68,8 @@ class MainActivity : AppCompatActivity() {
 
     fun item(view: View) {
         val button = view as Button
-        val data = button.text.toString()
-        when (data) {
+
+        when (val data = button.text.toString()) {
             "C" -> {
                 input = ""
                 result = "0"
@@ -112,7 +112,7 @@ class MainActivity : AppCompatActivity() {
         resultView!!.text = result
     }
 
-    fun Solve() {
+    private fun Solve() {
         if (input!!.split("×").toTypedArray().size == 2) {
             val number = input!!.split("×").toTypedArray()
             try {

@@ -18,7 +18,8 @@
         android:shadowDy="-1"
         android:text="0"
         android:textSize="70sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
 
     <TextView
         android:id="@+id/problem"
@@ -27,7 +28,8 @@
         android:background="@drawable/edit_corner"
         android:gravity="end"
         android:shadowDy="-1"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:textColor="@color/white"/>
 
     <View
         android:layout_width="match_parent"
@@ -60,8 +62,9 @@
                 android:onClick="item"
                 android:text="C"
                 android:textColor="@color/black"
-                android:textSize="25sp"
-                android:textStyle="bold" />
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
 
             <Button
                 android:id="@+id/power"
@@ -74,8 +77,9 @@
                 android:onClick="item"
                 android:text="^"
                 android:textColor="@color/black"
-                android:textSize="25sp"
-                android:textStyle="bold" />/>
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:gravity="center"/>/>
 
             <Button
                 android:id="@+id/divide"
@@ -87,8 +91,9 @@
                 android:onClick="item"
                 android:text="÷"
                 android:textColor="@color/black"
-                android:textSize="25sp"
-                android:textStyle="bold" />/>
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
 
             <Button
                 android:id="@+id/back"
@@ -100,8 +105,9 @@
                 android:onClick="item"
                 android:text="←"
                 android:textColor="@color/black"
-                android:textSize="25sp"
-                android:textStyle="bold" />/>
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:gravity="center"/>/>
 
 
         </LinearLayout>
@@ -121,10 +127,13 @@
                 android:layout_weight="0.25"
                 android:background="@drawable/rounded_button"
                 android:onClick="item"
+                android:backgroundTint="#88580F"
                 android:text="7"
-                android:textColor="@color/black"
-                android:textSize="25sp"
-                android:textStyle="bold" />
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                />
 
             <Button
                 android:id="@+id/eight"
@@ -135,10 +144,12 @@
                 android:layout_weight="0.25"
                 android:background="@drawable/rounded_button"
                 android:onClick="item"
+                android:backgroundTint="#88580F"
                 android:text="8"
-                android:textColor="@color/black"
-                android:textSize="25sp"
-                android:textStyle="bold" />
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
 
             <Button
                 android:id="@+id/nine"
@@ -149,9 +160,11 @@
                 android:background="@drawable/rounded_button"
                 android:onClick="item"
                 android:text="9"
-                android:textColor="@color/black"
-                android:textSize="25sp"
-                android:textStyle="bold" />
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:backgroundTint="#88580F"
+                android:textStyle="bold"
+                android:gravity="center"/>
 
             <Button
                 android:id="@+id/times"
@@ -163,8 +176,9 @@
                 android:onClick="item"
                 android:text="×"
                 android:textColor="@color/black"
-                android:textSize="25sp"
-                android:textStyle="bold" />
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
 
 
         </LinearLayout>
@@ -184,10 +198,12 @@
                 android:layout_weight="0.25"
                 android:background="@drawable/rounded_button"
                 android:onClick="item"
+                android:backgroundTint="#88580F"
                 android:text="4"
-                android:textColor="@color/black"
-                android:textSize="25sp"
-                android:textStyle="bold" />
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
 
             <Button
                 android:id="@+id/five"
@@ -195,12 +211,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="8dp"
                 android:layout_weight="0.25"
+                android:backgroundTint="#88580F"
                 android:background="@drawable/rounded_button"
                 android:onClick="item"
                 android:text="5"
-                android:textColor="@color/black"
-                android:textSize="25sp"
-                android:textStyle="bold" />
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
 
             <Button
                 android:id="@+id/six"
@@ -208,12 +226,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="8dp"
                 android:layout_weight="0.25"
+                android:backgroundTint="#88580F"
                 android:background="@drawable/rounded_button"
                 android:onClick="item"
                 android:text="6"
-                android:textColor="@color/black"
-                android:textSize="25sp"
-                android:textStyle="bold" />
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
 
             <Button
                 android:id="@+id/minus"
@@ -225,7 +245,8 @@
                 android:onClick="item"
                 android:text="-"
                 android:textColor="@color/black"
-                android:textSize="25sp"
+                android:textSize="35sp"
+                android:gravity="center"
                 android:textStyle="bold" />
 
 
@@ -244,13 +265,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="8dp"
                 android:layout_weight="0.25"
-
+                android:backgroundTint="#88580F"
                 android:background="@drawable/rounded_button"
                 android:onClick="item"
                 android:text="1"
-                android:textColor="@color/black"
-                android:textSize="25sp"
-                android:textStyle="bold" />
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
 
             <Button
                 android:id="@+id/two"
@@ -261,10 +283,12 @@
                 android:layout_weight="0.25"
                 android:background="@drawable/rounded_button"
                 android:onClick="item"
+                android:backgroundTint="#88580F"
                 android:text="2"
-                android:textColor="@color/black"
-                android:textSize="25sp"
-                android:textStyle="bold" />
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
 
             <Button
                 android:id="@+id/three"
@@ -275,9 +299,11 @@
                 android:background="@drawable/rounded_button"
                 android:onClick="item"
                 android:text="3"
-                android:textColor="@color/black"
-                android:textSize="25sp"
-                android:textStyle="bold" />
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:backgroundTint="#88580F"
+                android:textStyle="bold"
+                android:gravity="center"/>
 
             <Button
                 android:id="@+id/plus"
@@ -289,8 +315,9 @@
                 android:onClick="item"
                 android:text="+"
                 android:textColor="@color/black"
-                android:textSize="25sp"
-                android:textStyle="bold" />
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
 
 
         </LinearLayout>
@@ -304,29 +331,32 @@
 
             <Button
                 android:id="@+id/point"
-                android:layout_width="56dp"
+                android:layout_width="66dp"
                 android:layout_height="match_parent"
                 android:layout_marginRight="8dp"
                 android:layout_weight="1"
                 android:background="@drawable/rounded_button"
-                android:backgroundTint="@color/yosso"
+                android:backgroundTint="#88580F"
+                android:gravity="center"
                 android:onClick="item"
                 android:text="."
-                android:textColor="@color/black"
-                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:textSize="35sp"
                 android:textStyle="bold" />
 
             <Button
                 android:id="@+id/zero"
-                android:layout_width="59dp"
+                android:layout_width="60dp"
                 android:layout_height="match_parent"
                 android:layout_marginRight="8dp"
                 android:layout_weight="1"
                 android:background="@drawable/rounded_button"
+                android:backgroundTint="#88580F"
+                android:gravity="center"
                 android:onClick="item"
                 android:text="0"
-                android:textColor="@color/black"
-                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:textSize="35sp"
                 android:textStyle="bold" />
 
             <Button
@@ -339,8 +369,9 @@
                 android:onClick="item"
                 android:text="="
                 android:textColor="@color/black"
-                android:textSize="25sp"
-                android:textStyle="bold" />
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
 
 
         </LinearLayout>

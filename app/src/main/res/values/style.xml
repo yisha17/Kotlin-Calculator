@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="Button.White" parent="ThemeOverlay.AppCompat">
-        <item name="colorAccent">@color/yosso</item>
+        <item name="colorAccent">#EA9E2D</item>
     </style>
 
 
