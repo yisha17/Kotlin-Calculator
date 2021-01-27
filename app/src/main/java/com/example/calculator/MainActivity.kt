@@ -41,8 +41,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-
-
         one = findViewById(R.id.one)
         two = findViewById(R.id.two)
         three = findViewById(R.id.three)
@@ -64,6 +62,7 @@ class MainActivity : AppCompatActivity() {
         equal = findViewById(R.id.equal)
         problem = findViewById(R.id.problem)
         resultView = findViewById(R.id.resultView)
+        resultView!!.text = "0"
     }
 
     fun item(view: View) {
@@ -141,8 +140,8 @@ class MainActivity : AppCompatActivity() {
                     input = n[0]
                 }
             }
-        } else if (input!!.split("\\+").toTypedArray().size == 2) {
-            val number = input!!.split("\\+").toTypedArray()
+        } else if (input!!.split("+").toTypedArray().size == 2) {
+            val number = input!!.split("+").toTypedArray()
             try {
                 val sum = number[0].toDouble() + number[1].toDouble()
                 input = sum.toString() + ""
@@ -155,8 +154,8 @@ class MainActivity : AppCompatActivity() {
                 input = div.toString() + ""
             } catch (e: Exception) {
             }
-        } else if (input!!.split("\\^").toTypedArray().size == 2) {
-            val number = input!!.split("\\^").toTypedArray()
+        } else if (input!!.split("^").toTypedArray().size == 2) {
+            val number = input!!.split("^").toTypedArray()
             try {
                 val pow = number[0].toDouble().pow(number[1].toDouble())
                 input = pow.toString() + ""
